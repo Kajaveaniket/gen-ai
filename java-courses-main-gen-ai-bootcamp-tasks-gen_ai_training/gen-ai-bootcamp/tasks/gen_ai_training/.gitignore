@@ -1,0 +1,21 @@
+# Ignore Maven target directory (build artifacts)
+target/
+
+# Ignore logs, compiled files, and other Maven-related files
+*.log
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore IDE-specific files (optional)
+.idea/
+*.iml
+*.ipr
+*.iws
+*.project
+*.classpath
+*.settings/
+
+# Ignore dependency resolution
+.mvn/

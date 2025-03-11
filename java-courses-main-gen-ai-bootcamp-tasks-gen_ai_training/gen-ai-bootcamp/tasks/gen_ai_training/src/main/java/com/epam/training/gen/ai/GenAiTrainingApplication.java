@@ -9,7 +9,6 @@ import org.springframework.context.annotation.PropertySource;
 public class GenAiTrainingApplication {
 
 	public static void main(String[] args) {
-		System.out.println("just checking");
 		SpringApplication.run(GenAiTrainingApplication.class, args);
 	}
 
