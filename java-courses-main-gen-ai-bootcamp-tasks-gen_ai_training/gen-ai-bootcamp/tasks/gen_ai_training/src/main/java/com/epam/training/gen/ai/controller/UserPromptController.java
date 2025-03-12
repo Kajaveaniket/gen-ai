@@ -13,7 +13,7 @@ public class UserPromptController {
     PromptService promptService;
 
     @GetMapping
-    public String getPrompt(@RequestParam String prompt) throws ServiceNotFoundException {
-        return promptService.receivedPromptResponse(prompt);
+    public String getPrompt(@RequestParam String input) throws ServiceNotFoundException {
+        return promptService.receivedPromptResponse(input);
     }
 }
